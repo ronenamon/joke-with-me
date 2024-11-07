@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: my-nodejs-app           # set this to your Amazon ECR repository name
   ECS_SERVICE: my-nodejs-app-task                 # set this to your Amazon ECS service name
   ECS_CLUSTER: my-fargate-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: my-nodejs-app-task # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .github/workflows/ecs-task-definition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME:  my-nodejs-app-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
