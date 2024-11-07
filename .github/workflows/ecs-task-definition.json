@@ -20,7 +20,7 @@
     "cpu": "256",
     "memory": "0.5GB",
     "taskRoleArn": "arn:aws:iam::164821892795:role/ecsTaskRole",
-    "executionRoleArn": "arn:aws:iam::164821892795:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::164821892795:role/ecsTaskRole",
     "volumes": [],
     "placementConstraints": [],
     "proxyConfiguration": null
