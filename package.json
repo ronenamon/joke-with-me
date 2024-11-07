@@ -1,0 +1,23 @@
+{
+  "name": "joke-app",
+  "version": "1.0.0",
+  "description": "A simple random joke generator web app",
+  "main": "jokeApp.js",
+  "scripts": {
+    "start": "node jokeApp.js",
+    "dev": "nodemon jokeApp.js"
+  },
+  "keywords": [
+    "jokes",
+    "nodejs",
+    "web-app"
+  ],
+  "author": "Ronen Amon",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
