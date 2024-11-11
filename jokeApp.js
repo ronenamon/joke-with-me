@@ -19,10 +19,27 @@ const server = http.createServer((req, res) => {
         </body>
       </html>
     `);
+  } else if (req.url === '/work') {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.end(`
+      <html>
+        <body>
+          <h1>Work in progress</h1>
+        </body>
+      </html>
+    `);
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Page not found');
   }
+
+
+
+
+  
+
+
+
 });
 
 const port = 5000;
